@@ -1,0 +1,117 @@
+/* reset */
+
+html, body, h1, p {
+    padding: 0;
+    margin: 0;
+}
+
+figure {
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 30px
+}
+
+h1 {
+    font-size: 56px;
+}
+p {
+    font-size: 36px;
+}
+.btn {
+    position: fixed;
+    right: 2em;
+    top: 2em;
+}
+
+.btn a {
+    color: white;
+    background-color: black;
+    
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+    transition: all 0.5s;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+
+.btn a:hover{
+    background-color: #00FFEA;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+    
+    
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.item-1 {
+  grid-column: 3 / span 1;
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+.item-2 {
+    grid-column: 2/ span 1;
+}
+.item-3 {
+    grid-column: 4/ span 1;
+    grid-column-start: 4;
+    grid-row-start: 1;
+}
+.item-4 {
+  grid-column: 1 / span 2;
+    grid-column-start: 1;
+        grid-row-start: 1;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+    
+    
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+      
+}
+.foot-3 a {
+      color: black; 
+     text-decoration: none;
+    }
+.foot-4 a {
+    color: black;
+    text-decoration: none;
+}
+.foot-3 a:hover {
+    text-decoration: underline;
+}
+.foot-4 a:hover {
+    text-decoration: underline;
+}
+    
+}
+article {
+    font-size: 18px;
+    font-family: Arial, sans-serif
+}
